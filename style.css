@@ -9,6 +9,13 @@ body {
 }
 
 
+.inspirational,
+.author,
+.pleasejoin,
+.subtext {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -32,14 +39,15 @@ img {
 }
 
 button {
-    color: white;
+    color: #F9FAF8;
     padding: 4px 32px;
     border: 1px solid;
     border-radius: 4px;
     font-size: 21px;
 }
 
-.hero {
+.hero,
+.footer {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -69,7 +77,7 @@ button {
 
 .title,
 .maintext .subtext {
-    margin: 8px 0px;
+    margin: 8px 0px 0px 0px;
 }
 
 .title {
@@ -116,7 +124,6 @@ button {
 }
 
 .squares .subtext {
-    margin: 0;
     color: #454545;
 }
 
@@ -137,4 +144,23 @@ button {
 .author {
     text-align: end;
     margin: 0;
+}
+
+.signup {
+    margin: 64px 128px;
+    padding: 32px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.pleasejoin {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.footer {
+    text-align: center;
+    padding: 24px;
 }
