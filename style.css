@@ -12,19 +12,30 @@ body {
 .inspirational,
 .author,
 .pleasejoin,
-.subtext {
+.subtext,
+.emoji {
     margin: 0;
+}
+
+.logo,
+button,
+.title,
+.pleasejoin {
+    color: #F9FAF8;
+}
+
+.info-title,
+.square,
+.footer {
+    text-align: center;
 }
 
 a {
     text-decoration: none;
 }
 
-.bold {
-    font-weight: bold;
-}
-
-.blue {
+.signup,
+button {
     background-color: #3882F6;
 }
 
@@ -39,7 +50,6 @@ img {
 }
 
 button {
-    color: #F9FAF8;
     padding: 4px 32px;
     border: 1px solid;
     border-radius: 4px;
@@ -63,8 +73,8 @@ button {
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
     margin: 8px 0px;
+    font-weight: 600;
 }
 
 .links .subtext {
@@ -77,12 +87,11 @@ button {
 
 .title,
 .maintext .subtext {
-    margin: 8px 0px 0px 0px;
+    margin: 8px 0px;
 }
 
 .title {
     font-size: 48px;
-    color: #F9FAF8;
 }
 
 .maintext .text {
@@ -95,7 +104,6 @@ button {
 
 
 .info-title {
-    text-align: center;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
@@ -111,7 +119,6 @@ button {
 
 .square {
     flex: 0 1 150px;
-    text-align: center;
 }
 
 .emoji {
@@ -120,7 +127,6 @@ button {
     border-radius: 8px;
     height: 150px;
     box-sizing: border-box;
-    margin: 0;
 }
 
 .squares .subtext {
@@ -138,12 +144,10 @@ button {
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
-    margin: 0;
 }
 
 .author {
     text-align: end;
-    margin: 0;
 }
 
 .signup {
@@ -156,11 +160,9 @@ button {
 }
 
 .pleasejoin {
-    color: #F9FAF8;
     font-size: 24px;
 }
 
 .footer {
-    text-align: center;
     padding: 24px;
 }
