@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(assets/Roboto-VariableFont_wdth\,wght.ttf)
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.blue {
+    background-color: #3882F6;
+}
