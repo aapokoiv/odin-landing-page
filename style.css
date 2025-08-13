@@ -5,12 +5,72 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.hero {
-    background-color: #1F2937;
+
+a {
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .blue {
     background-color: #3882F6;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+img {
+    width: auto;
+    height: 200px;
+}
+
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.maintext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 128px 64px 128px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 8px 0px;
+}
+
+.links .subtext {
+    margin: 8px;
+}
+
+.maintext {
+    gap: 30px;
+}
+
+.title,
+.maintext .subtext {
+    margin: 8px 0px;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.maintext .text {
+    flex: 0 1 500px;
 }
